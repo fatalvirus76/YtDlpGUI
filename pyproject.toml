@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yt_dlp_gui_app"
+version = "1.0.0"
+authors = [
+  { name="Din Utvecklare", email="developer@example.com" },
+]
+description = "A robust and testable PyQt6 GUI for yt-dlp."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Framework :: PyQt",
+]
+dependencies = [
+    "PyQt6",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/example/YtDlpGUI"
+"Bug Tracker" = "https://github.com/example/YtDlpGUI/issues"
+
+[project.scripts]
+yt-dlp-gui = "yt_dlp_gui_app.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# --- Development Dependencies ---
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-qt",
+    "flake8",
+    "mypy",
+    "types-PyQt6"
+]

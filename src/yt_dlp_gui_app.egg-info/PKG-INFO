@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: yt_dlp_gui_app
+Version: 1.0.0
+Summary: A robust and testable PyQt6 GUI for yt-dlp.
+Author-email: Din Utvecklare <developer@example.com>
+Project-URL: Homepage, https://github.com/example/YtDlpGUI
+Project-URL: Bug Tracker, https://github.com/example/YtDlpGUI/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: PyQt
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt6
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-qt; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: types-PyQt6; extra == "dev"
