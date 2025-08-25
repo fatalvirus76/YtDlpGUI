@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "yt_dlp_gui_app"
 version = "1.0.0"
 authors = [
-  { name="Din Utvecklare", email="developer@example.com" },
+  { name="fatalvirus76", email="fatalvirus@ownit.nu" },
 ]
 description = "A robust and testable PyQt6 GUI for yt-dlp."
 readme = "README.md"
